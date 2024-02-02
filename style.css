@@ -18,6 +18,7 @@ img {
 h1,
 h2 {
     margin-bottom: 15px;
+    margin-top: 0px;
 }
 
 ul {
@@ -87,4 +88,23 @@ ul {
     min-height: 400px;
     align-items: center;
     justify-content: space-between;
+}
+
+.boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background-color: #0151cc;
+    color: #fff;
+    margin: 52px 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+.box i {
+    margin-right: 10px;
 }
