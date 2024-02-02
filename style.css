@@ -9,6 +9,9 @@ body {
     line-height: 1.5;
     color: #333;
     background: #a1c3ff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 img {
@@ -90,6 +93,10 @@ ul {
     justify-content: space-between;
 }
 
+.header .container p {
+    max-width: 600px;
+}
+
 .boxes .container {
     display: flex;
     justify-content: space-between;
@@ -99,7 +106,7 @@ ul {
     flex: 1;
     background-color: #0151cc;
     color: #fff;
-    margin: 52px 10px;
+    margin: 52px 16px;
     padding: 15px 20px;
     border-radius: 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
@@ -125,4 +132,22 @@ ul {
         display: block;
         text-align: center;
     }
+}
+
+footer {
+    margin-top: auto;
+    background-color: #3474e6;
+    color: #fff;
+    height: 82px;
+}
+
+footer h1 {
+    margin-bottom: 0px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
